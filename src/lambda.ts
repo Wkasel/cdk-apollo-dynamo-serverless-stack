@@ -1,5 +1,5 @@
-import { gql, ApolloServer, MergeInfo } from "apollo-server-lambda";
-import { GraphQLResolveInfo } from 'graphql';
+import { gql, ApolloServer } from "apollo-server-lambda";
+
 
 import Note from "./Note";
 import listNotes from "./listNotes";

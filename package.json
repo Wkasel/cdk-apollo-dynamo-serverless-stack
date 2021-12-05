@@ -7,7 +7,8 @@
     "start": "sst start",
     "build": "sst build",
     "deploy": "sst deploy",
-    "remove": "sst remove"
+    "lint": "eslint \"src/**/*.ts\"",
+    "lint:fix": "eslint \"src/**/*.ts\" --fix"
   },
   "eslintConfig": {
     "extends": [
@@ -15,11 +16,20 @@
     ]
   },
   "devDependencies": {
-    "@types/aws-lambda": "^8.10.70"
+    "@types/aws-lambda": "^8.10.70",
+    "@types/jest": "^26.0.24",
+    "eslint": "^7.26.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.23.2",
+    "eslint-plugin-prettier": "^3.4.0"
   },
   "dependencies": {
     "@serverless-stack/cli": "0.48.0",
     "@serverless-stack/resources": "0.48.0",
-    "apollo-server-lambda": "^2.21.1"
+    "@typescript-eslint/eslint-plugin": "^5.5.0",
+    "@typescript-eslint/parser": "^5.5.0",
+    "apollo-server-lambda": "^2.21.1",
+    "aws-sdk": "^2.1043.0"
   }
 }
