@@ -1,6 +1,6 @@
 # AWS CDK - Apollo - Dynamo w/ Serverless-Stack
 
-> Serverless stack is a set of higher-level functions that make working with CDK even easier than it already is. You coud just as well remove it and most of this would work.
+> Serverless stack is a set of higher-level functions that make working with CDK even easier than it already is. You coud just as well remove it and most of this would work. You can read more about Serverless Stack [here](serverless-stack.com). You can read more about AWS CDK [here](https://aws.amazon.com/cdk/).
 
 This is an extension of a base tutorial located [**here**](https://serverless-stack.com/examples/how-to-create-an-apollo-graphql-api-with-serverless.html)
 
