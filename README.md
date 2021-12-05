@@ -1,17 +1,17 @@
-# How to create an Apollo GraphQL API
+# AWS CDK - Apollo - Dynamo w/ Serverless-Stack
 
-An example serverless app created with SST.
+> Serverless stack is a set of higher-level functions that make working with CDK even easier than it already is. You coud just as well remove it and most of this would work.
+
+This is an extension of a base tutorial located [**here**](https://serverless-stack.com/examples/how-to-create-an-apollo-graphql-api-with-serverless.html)
 
 ## Getting Started
-
-[**Read the tutorial**](https://serverless-stack.com/examples/how-to-create-an-apollo-graphql-api-with-serverless.html)
 
 Install the example.
 
 ```bash
-$ npm init serverless-stack --example graphql-apollo
+$ npm i
 # Or with Yarn
-$ yarn create serverless-stack --example graphql-apollo
+$ yarn
 ```
 
 ## Commands
@@ -45,7 +45,3 @@ Learn more about the Serverless Stack.
 - [Docs](https://docs.serverless-stack.com)
 - [@serverless-stack/cli](https://docs.serverless-stack.com/packages/cli)
 - [@serverless-stack/resources](https://docs.serverless-stack.com/packages/resources)
-
-## Community
-
-[Follow us on Twitter](https://twitter.com/ServerlessStack) or [post on our forums](https://discourse.serverless-stack.com).
